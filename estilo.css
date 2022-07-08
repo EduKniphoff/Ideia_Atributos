@@ -1,0 +1,61 @@
+:root{
+    --preto: #000000;
+    --azul-turquesa:#00b5b4;
+    --cinza-escuro:#222222;
+    --branco-gema:#f8f5e8;
+    --amarelo1:#f9c70a;
+    --vermelho:#ff3e3e;
+    --amarelo2:#ffcc00;
+    --branco:#ffffff;
+
+    --fonte-padrão: 'VT323', monospace;
+
+}
+
+body{
+    background-color:var(--cinza-escuro) ;
+}
+.atributos_chamada{
+    border-bottom: solid 3px #f9c70a;
+    align-items: center;
+    margin: 55px;
+    padding-bottom:50px ;
+    
+}
+.atributos_chamada_titulo{
+    font-family: var(--fonte-padrão);
+    font-size: min(100px, 15vw); /*viewport unit (width)*/
+    color: var(--branco);
+    text-align: center;
+    margin-top: 25px;
+}
+.atributos_fisicos{
+
+    border-bottom: solid 3px #f9c70a;
+    align-items: center;
+    margin: 55px;
+    padding-bottom:50px ;
+
+}
+.atributos_graficos{
+
+    border-bottom: solid 3px #f9c70a;
+    align-items: center;
+    margin: 55px;
+    padding-bottom:50px ;
+
+}
+.atributos_mentais{
+
+    border-bottom: solid 3px #f9c70a;
+    align-items: center;
+    margin: 55px;
+    padding-bottom:50px ;
+}
+.atributos_sequencia{
+
+    border-bottom: solid 3px #f9c70a;
+    align-items: center;
+    margin: 55px;
+    padding-bottom:50px ;
+}
