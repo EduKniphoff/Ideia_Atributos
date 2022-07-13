@@ -18,13 +18,13 @@ body{
 .atributos_chamada{
     border-bottom: solid 3px #f9c70a;
     align-items: center;
-    margin: 55px;
+    margin: 55px 55px 25px 55px;
     padding-bottom:50px ;
     
 }
 .atributos_chamada_titulo{
     font-family: var(--fonte-padrão);
-    font-size: min(100px, 15vw); /*viewport unit (width)*/
+    font-size: min(90px, 10vw); /*viewport unit (width)*/
     color: var(--branco);
     text-align: center;
     margin-top: 25px;
@@ -33,11 +33,23 @@ body{
 
     border-bottom: solid 3px #f9c70a;
     align-items: center;
-    margin: 55px;
+    margin: 0px 55px 25px 55px;
     padding-bottom:50px ;
+    
 
 }
-.atributos_graficos{
+.atributos_fisicos_titulo{
+    font-family: var(--fonte-padrão);
+    font-size: min(70px, 8vw); 
+    color: var(--branco);
+    text-align: center;
+    
+}
+.atributos_fisicos_imagem{
+    height: max(160px, 15vw);
+    width: max(160px, 15vw) ;
+}
+.atributos_grafico{
 
     border-bottom: solid 3px #f9c70a;
     align-items: center;
@@ -45,12 +57,24 @@ body{
     padding-bottom:50px ;
 
 }
+
 .atributos_mentais{
 
     border-bottom: solid 3px #f9c70a;
     align-items: center;
-    margin: 55px;
+    margin: 0px 55px 55px 55px;
     padding-bottom:50px ;
+}
+.atributos_mentais_titulo{
+    font-family: var(--fonte-padrão);
+    font-size: min(70px, 8vw);
+    color: var(--branco);
+    text-align: center;
+
+}
+.atributos_mentais_imagem{
+    height: max(160px, 15vw);
+    width: max(160px, 15vw) ;
 }
 .atributos_sequencia{
 
@@ -58,4 +82,33 @@ body{
     align-items: center;
     margin: 55px;
     padding-bottom:50px ;
+}
+
+/*estilo pg2*/
+
+.atributos_tags_onbox :nth-child(n){
+    font-family: var(--fonte-padrão);
+    color: var(--branco);
+    text-align: center;font-family: var(--fonte-padrão);
+    font-size: 45px;
+}    
+.atributos_tags_onbox{
+    display: grid;
+    grid-auto-flow:column;
+    /*justify-content: space-around;*/
+    
+}
+
+.atributos_tags_box :nth-child(n){
+    font-family: var(--fonte-padrão);
+    color: var(--branco);
+    text-align: center;font-family: var(--fonte-padrão);
+    border: solid 3px #f9c70a;
+    font-size: 45px;
+}
+.atributos_tags_box{
+    display: grid;
+    grid-auto-flow:column;
+    grid-gap:15px;
+    
 }
